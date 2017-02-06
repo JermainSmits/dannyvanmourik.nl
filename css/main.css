@@ -7,12 +7,20 @@
 #AA5C39 - Default text            - Brown, similar to dark skin tone
 #742603 - Focus, active elements  - Red/brown, wood like color
 #3F1400 - Hover, Captions         - Dark brown
+*/
 
+/* Needed to make the footer stick to the bottom of the page at all times */
+html
+{
+  position: relative;
+  min-height: 100%;
+}
 
-/* Change the background color of the entire page */
+/* Set background of the page and add room for a sticky footer */
 body
 {
   background-color: #C57F60;
+  margin-bottom: 50px; // Size of the footer
 }
 
 /*------------------------------------------------------------------------------
@@ -116,7 +124,17 @@ focus or those which are being hovered over */
 /*------------------------------------------------------------------------------
 ------------------------------------Dashboard-----------------------------------
 ------------------------------------------------------------------------------*/
+/* Set the dark text caption */
+.container.text-center h3
+{
+  color: #3F1400;
+}
 
+/* Define the text color in case the background is white */
+.container.text-center > .row > .col-sm-4 > .well > p
+{
+  color: #AA5C39;
+}
 /*------------------------------------------------------------------------------
 -------------------------------------Footer-------------------------------------
 ------------------------------------------------------------------------------*/
@@ -124,7 +142,10 @@ focus or those which are being hovered over */
 /* Add a light brown background color and some padding to the footer */
 footer
 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
   color: #C57F60;
   background-color: #E6B29A;
-  padding: 25px;
 }
