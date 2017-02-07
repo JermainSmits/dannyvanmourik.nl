@@ -4,5 +4,6 @@ import { Component } from '@angular/core';
   moduleId: module.id,
   selector: 'dvm',
   templateUrl: '../html/navigation.html',
+  styleUrls: [ '../css/navigation.css' ]
 })
 export class AppComponent  { }

@@ -1,0 +1,44 @@
+/*------------------------------------------------------------------------------
+-------------------------------------Navbar-------------------------------------
+------------------------------------------------------------------------------*/
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar
+{
+  margin-bottom: 0;
+  border-radius: 0;
+  border-color: #E6B29A;
+  background-color: #E6B29A;
+}
+
+/* Change the color and font-weigth of the active button.*/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .ative > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:visited
+{
+  color: #742603;
+  background-color: #E6B29A;
+  font-weight: bold;
+}
+
+/* Change the text color in the navbar logo section */
+.navbar-inverse .navbar-brand
+{
+  color: #742603;
+}
+
+/* Change the text color of all the links in the navbar*/
+.navbar-inverse .navbar-nav > li > a
+{
+  color: #742603
+}
+
+/* Change the text color and background color for the links that have the
+focus or those which are being hovered over */
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus
+{
+  color: #E6B29A;
+  background-color: #3F1400;
+}

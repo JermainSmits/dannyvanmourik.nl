@@ -4,5 +4,6 @@ import { Component } from '@angular/core';
   moduleId: module.id,
   selector: 'dvm-carousel',
   templateUrl: '../html/carousel.html',
+  styleUrls: [ '../css/carousel.css' ]
 })
 export class CarouselComponent  { }

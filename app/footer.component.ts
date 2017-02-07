@@ -4,5 +4,6 @@ import { Component } from '@angular/core';
   moduleId: module.id,
   selector: 'dvm-footer',
   templateUrl: '../html/footer.html',
+  styleUrls: [ '../css/footer.css' ]
 })
 export class FooterComponent  { }

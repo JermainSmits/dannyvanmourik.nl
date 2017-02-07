@@ -1,0 +1,34 @@
+/*------------------------------------------------------------------------------
+------------------------------------Dashboard-----------------------------------
+------------------------------------------------------------------------------*/
+/* Set the dark text caption */
+.container.text-center h3
+{
+  color: #3F1400;
+}
+
+/* Define the text color in case the background is white */
+.container.text-center > .row > .col-sm-4 > .well > p
+{
+  color: #AA5C39;
+}
+
+/* Set the width of the images in the 'Projects' section to 100% */
+.container.text-center > .row > .col-sm-4 > img
+{
+  width: 100%;
+}
+
+/* Set the look and feel of the contact section */
+.form-area > h3
+{
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Position the text besides the contact form */
+#textContactForm
+{
+  text-align: justify;
+  display: inline-block;
+}
