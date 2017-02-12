@@ -22,3 +22,9 @@ body
   background-color: #C57F60;
   margin-bottom: 50px; // Size of the footer
 }
+
+/* Set the dark text caption */
+.container.text-center h3
+{
+  color: #3F1400;
+}

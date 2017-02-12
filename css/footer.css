@@ -1,4 +1,3 @@
-
 /*------------------------------------------------------------------------------
 -------------------------------------Footer-------------------------------------
 ------------------------------------------------------------------------------*/
@@ -14,7 +13,15 @@ footer
   background-color: #E6B29A;
 }
 
-/*
-TODO: Vertically align the text in the footer
-TODO: Hide the information at the side when the screen becomes to small
-*/
+/* Vertically align the text in the footer */
+footer > .row
+{
+  padding-top: 18px;
+}
+
+/* Make the links in the footer look like the rest of the text */
+footer > .row > .col-sm-3 > a
+{
+  color: #C57F60;
+  text-decoration: underline;
+}
