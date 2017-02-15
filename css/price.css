@@ -1,12 +1,23 @@
 /*------------------------------------------------------------------------------
 --------------------------------------Price-------------------------------------
 ------------------------------------------------------------------------------*/
+/* Align text in table headers */
 th
 {
   text-align: center;
 }
 
+/* Don't show a border around tables */
 .borderless td, .borderless th
 {
   border: none;
+}
+
+/* Remove the borders from a table on smaller screens */
+@media screen and (max-width: 767px)
+{
+  .table-responsive.borderless
+  {
+    border: none;
+  }
 }
