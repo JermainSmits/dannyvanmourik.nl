@@ -23,129 +23,28 @@ body
   margin-bottom: 50px; // Size of the footer
 }
 
-/*------------------------------------------------------------------------------
--------------------------------------Navbar-------------------------------------
-------------------------------------------------------------------------------*/
-
-/* Remove the navbar's default margin-bottom and rounded borders */
-.navbar
-{
-  margin-bottom: 0;
-  border-radius: 0;
-  border-color: #E6B29A;
-  background-color: #E6B29A;
-}
-
-/* Change the color and font-weigth of the active button.*/
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .ative > a:focus,
-.navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:visited
-{
-  color: #742603;
-  background-color: #E6B29A;
-  font-weight: bold;
-}
-
-/* Change the text color in the navbar logo section */
-.navbar-inverse .navbar-brand
-{
-  color: #742603;
-}
-
-/* Change the text color of all the links in the navbar*/
-.navbar-inverse .navbar-nav > li > a
-{
-  color: #742603
-}
-
-/* Change the text color and background color for the links that have the
-focus or those which are being hovered over */
-.navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-nav > li > a:focus
-{
-  color: #E6B29A;
-  background-color: #3F1400;
-}
-
-/*------------------------------------------------------------------------------
-------------------------------------Carousel------------------------------------
-------------------------------------------------------------------------------*/
-/* Define size for the carousel image */
-.carousel-inner img
-{
-  width: 100%; /* Set width to 100% */
-  margin: auto;
-  min-height:200px;
-}
-
-/* Set the dark text caption */
-.carousel-caption h3
-{
-  color: #3F1400;
-}
-
-/* Define default text color for the carousel */
-.carousel-caption
-{
-  color: #AA5C39;
-}
-
-/* Create lighter colorings for the carousel indicators */
-.carousel-indicators > li
-{
-  border-color: #E6B29A;
-  background-color: #E6B29A;
-}
-
-/* Make the active indicator stand out more by making it darker */
-.carousel-indicators > li.active
-{
-  border-color: #C57F60;
-  background-color: #C57F60;
-}
-
-/* Match color of the glyphicons to the overall layout of the page*/
-#dvmCarousel > a.carousel-control.right > span.glyphicon-chevron-right::before,
-#dvmCarousel > a.carousel-control.left > span.glyphicon-chevron-left::before
-{
-  color: #E6B29A;
-}
-
-/* Hide the carousel text when the screen is less than 600 pixels wide */
-@media (max-width: 600px)
-{
-  .carousel-caption
-  {
-    display: none;
-  }
-}
-
-/*------------------------------------------------------------------------------
-------------------------------------Dashboard-----------------------------------
-------------------------------------------------------------------------------*/
 /* Set the dark text caption */
 .container.text-center h3
 {
   color: #3F1400;
 }
 
-/* Define the text color in case the background is white */
-.container.text-center > .row > .col-sm-4 > .well > p
+/* Default hyperlink identification */
+.container.text-center a
 {
-  color: #AA5C39;
+  color: #742603;
+  text-decoration: underline;
 }
-/*------------------------------------------------------------------------------
--------------------------------------Footer-------------------------------------
-------------------------------------------------------------------------------*/
 
-/* Add a light brown background color and some padding to the footer */
-footer
+/* Make the coloring a bit darker when hovering over a link */
+.container.text-center a:focus,
+.container.text-center a:hover
 {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  color: #C57F60;
-  background-color: #E6B29A;
+  color: #3F1400;
+}
+
+/* Identify the link as 'been there done that' */
+.container.text-center a:visited
+{
+  color: #E6B29A;
 }

@@ -1,0 +1,27 @@
+/*------------------------------------------------------------------------------
+-------------------------------------Footer-------------------------------------
+------------------------------------------------------------------------------*/
+
+/* Add a light brown background color and some padding to the footer */
+footer
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  color: #C57F60;
+  background-color: #E6B29A;
+}
+
+/* Vertically align the text in the footer */
+footer > .row
+{
+  padding-top: 18px;
+}
+
+/* Make the links in the footer look like the rest of the text */
+footer > .row > .col-sm-3 > a
+{
+  color: #C57F60;
+  text-decoration: underline;
+}
