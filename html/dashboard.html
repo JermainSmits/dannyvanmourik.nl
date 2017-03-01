@@ -4,7 +4,7 @@
   <div class="row">
     <div *ngFor="let project of projects" class="col-sm-4">
       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" alt={{project.title}} />
-      <a href="../html/project-detail.html">{{project.title}}</a>
+      <a [routerLink]="['/Project', project.id]">{{project.title}}</a>
     </div>
   </div>
   <div class="row">
@@ -13,4 +13,3 @@
   </div>
 </div>
 <br/>
-<dvm-footer></dvm-footer>
