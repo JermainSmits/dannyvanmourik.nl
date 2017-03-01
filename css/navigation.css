@@ -31,7 +31,7 @@
 /* Change the text color of all the links in the navbar*/
 .navbar-inverse .navbar-nav > li > a
 {
-  color: #742603
+  color: #742603;
 }
 
 /* Change the text color and background color for the links that have the

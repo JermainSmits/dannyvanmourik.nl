@@ -1,12 +1,6 @@
 /*------------------------------------------------------------------------------
 ------------------------------------Dashboard-----------------------------------
 ------------------------------------------------------------------------------*/
-/* Define the text color in case the background is white */
-.container.text-center > .row > .col-sm-4 > .well > p
-{
-  color: #AA5C39;
-}
-
 /* Set the width of the images in the 'Projects' section to 100% */
 .container.text-center > .row > .col-sm-4 > img
 {

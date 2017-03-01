@@ -2,17 +2,9 @@
   <h3 id="Projecten">Projecten</h3>
   <br/>
   <div class="row">
-    <div class="col-sm-4">
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" alt="Image">
-      <p>Current Project</p>
-    </div>
-    <div class="col-sm-4">
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" alt="Image">
-      <p>Project 2</p>
-    </div>
-    <div class="col-sm-4">
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" alt="Image">
-      <p>Project 3</p>
+    <div *ngFor="let project of projects" class="col-sm-4">
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" alt={{project.title}} />
+      <a href="../html/project-detail.html">{{project.title}}</a>
     </div>
   </div>
   <div class="row">

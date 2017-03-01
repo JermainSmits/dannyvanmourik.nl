@@ -28,3 +28,23 @@ body
 {
   color: #3F1400;
 }
+
+/* Default hyperlink identification */
+.container.text-center a
+{
+  color: #742603;
+  text-decoration: underline;
+}
+
+/* Make the coloring a bit darker when hovering over a link */
+.container.text-center a:focus,
+.container.text-center a:hover
+{
+  color: #3F1400;
+}
+
+/* Identify the link as 'been there done that' */
+.container.text-center a:visited
+{
+  color: #E6B29A;
+}
